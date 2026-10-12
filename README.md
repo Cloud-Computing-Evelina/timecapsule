@@ -59,7 +59,7 @@
 
 **📸 Скриншот 1.**  
 
-(![alt text](<Снимок экрана 2026-10-05 144604.png>)) 
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-05%20144604.png)
 
 
 **Вопрос: что разрешает политика AdministratorAccess? Почему для повседневной работы нельзя использовать root?**

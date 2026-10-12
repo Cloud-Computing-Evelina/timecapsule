@@ -355,16 +355,19 @@ User data выполняется только один раз при перво�
 
 
 **Что делала и зачем.**
+--
+ ![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-13%20002058.png)
+--
 
 
 
 Настроила базу данных PostgreSQL и запустила её. Создала пользователя и базу данных для приложения TimeCapsule. Проверила, что приложение может подключиться к базе данных.
 
-
+--
 
 ![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-12%20161342.png)
 
-
+--
 
 
 ## Задание 10. Развёртывание кода на сервере

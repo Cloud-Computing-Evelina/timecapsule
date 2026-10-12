@@ -60,6 +60,7 @@
 **📸 Скриншот 1.**  
 
 ![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-05%20144604.png)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-08%20201001.png)
 
 
 **Вопрос: что разрешает политика AdministratorAccess? Почему для повседневной работы нельзя использовать root?**
@@ -99,11 +100,11 @@
 
 После запуска дождалась состояния Running и пройденных проверок, потом открыла `http://<Public-IP>` и увидела приветственную страницу nginx.
 
-**📸 Скриншот 2.** ![alt text](<Снимок экрана 2026-10-08 201001.png>)
+**📸 Скриншот 2.** ![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-08%20201001.png)
 
 **📸 Скриншот 3.** Страница nginx в браузере по публичному IP.
 
-![alt text](<Снимок экрана 2026-10-08 201523.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-08%20201523.png)
 
 **Вопрос: что такое User data и когда выполняется этот скрипт? Выполнится ли он повторно после перезагрузки?**
 
@@ -134,11 +135,11 @@ User data — это скрипт, который AWS передаёт экзе�
 
 **📸 Скриншот 4.** Вкладка Monitoring.
 
-![alt text](<Снимок экрана 2026-10-08 202339.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-08%20202339.png)
 
 **📸 Скриншот 5.** Фрагмент System log с установкой nginx.
 
-![alt text](<Снимок экрана 2026-10-08 202741.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-08%20202741.png)
 
 
 **Вопрос: какая проверка укажет на проблему, которую можете исправить вы, а какая на проблему на стороне AWS?**
@@ -187,7 +188,7 @@ ssh -i $HOME\.ssh\<nickname>-keypair.pem ec2-user@<Public-IP>
 
 
 **📸 Скриншот 6.** Успешное подключение по SSH и вывод `systemctl status nginx`.
-![alt text](<Снимок экрана 2026-10-08 204006.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-08%20204006.png)
 
 
 **Вопрос: почему для входа на EC2 используется ключ, а не пароль?**
@@ -231,9 +232,9 @@ ls -l /usr/share/nginx/html
 
 
 **📸 Скриншот 7.** Мой сайт в браузере и вывод 
-![alt text](<Снимок экрана 2026-10-08 212806.png>)
-![alt text](<Снимок экрана 2026-10-08 212926.png>)
-![alt text](<Снимок экрана 2026-10-08 213010.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-08%20212806.png)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-08%20212926.png)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-08%20213010.png)
 
 
 **Вопрос: что делает команда scp и чем она похожа на ssh?**
@@ -267,7 +268,7 @@ aws ec2 stop-instances --instance-ids <ID-экземпляра> --region eu-cent
 **📸 Скриншот 8.** Команда `aws ec2 stop-instances` и её вывод.
 
 
-![alt text](<Снимок экрана 2026-10-08 213420.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-08%20213420.png)
 
 
 **Вопрос: чем Stop отличается от Terminate? За что продолжаешь платить, пока экземпляр остановлен?**
@@ -312,7 +313,7 @@ aws ec2 stop-instances --instance-ids <ID-экземпляра> --region eu-cent
 **📸 Скриншот 9.** Репозиторий на GitHub с папками public, src, views и файлом composer.json в корне.
 
 
-![alt text](<Снимок экрана 2026-10-12 160027.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-12%20160027.png)
 
 **Вопрос: почему vendor/ и .env не попали в репозиторий?**
 
@@ -373,7 +374,7 @@ User data выполняется только один раз при перво�
 
 
 
-c:\Users\user\Pictures\Screenshots\Снимок экрана 2026-10-12 161342.png
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-12%20161342.png)
 
 
 
@@ -406,7 +407,7 @@ c:\Users\user\Pictures\Screenshots\Снимок экрана 2026-10-12 161342.p
 **📸 Скриншот 11.** Вывод `php bin/init-db.php` (`Database is ready`).
 
 
-![alt text](<Снимок экрана 2026-10-12 161740.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-12%20161740.png)
 
 
 **Вопрос: почему пароль к базе хранится в .env на сервере, а не в коде? Почему публичный репозиторий безопасен для этого приложения?**
@@ -433,24 +434,22 @@ c:\Users\user\Pictures\Screenshots\Снимок экрана 2026-10-12 161342.p
 **📸 Скриншот 12.** 
 
 
-![alt text](<Снимок экрана 2026-10-12 161829.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-12%20161829.png)
 
 
 **📸 Скриншот 13.** 
-![alt text](<Снимок экрана 2026-10-12 161958.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-12%20161958.png)
 
 
 **📸 Скриншот 14.** 
-![alt text](<Снимок экрана 2026-10-12 162514.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-12%20162514.png)
 **📸 Скриншот 15.** 
-![alt text](<Снимок экрана 2026-10-12 162522.png>)
-
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-12%20162522.png)
 **📸 Скриншот 16.** 
-![alt text](<Снимок экрана 2026-10-12 162809.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-12%20162809.png)
 **📸 Скриншот 17.** 
-![
-](<Снимок экрана 2026-10-12 162826.png>)
 
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-12%20162826.png)
 
 ## Задание 12. Обновление приложения (вариант A, вручную)
 
@@ -471,7 +470,7 @@ c:\Users\user\Pictures\Screenshots\Снимок экрана 2026-10-12 161342.p
 `git pull` заменяет файлы по одному, и это занимает несколько секунд. Посетитель в этот момент может получить смесь старых и новых файлов: сломанную страницу или ошибку 500. Если не выполнить `composer install`, а новому коду нужны новые библиотеки, то их в `vendor/` не будет, и сайт упадёт с ошибкой (например, «класс не найден» или `vendor/ is missing`).
 
 
-![alt text](<Снимок экрана 2026-10-12 161740-1.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-12%20161740-1.png)
 
 ---
 
@@ -493,18 +492,17 @@ c:\Users\user\Pictures\Screenshots\Снимок экрана 2026-10-12 161342.p
 
 **📸 Скриншот 15.** Новая версия с моим именем в подвале.
 
-![alt text](<Снимок экрана 2026-10-12 162514-1.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-12%20162514-1.png)
 
 
 **📸 Скриншот 16.** Ошибка 500 на главной после сломанного деплоя (в адресной строке виден IP).
 
-![alt text](<Снимок экрана 2026-10-12 162809-1.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-12%20162809-1.png)
 
 
 **📸 Скриншот 17.** Ответ `/health` во время поломки (ok).
 
-
-![alt text](<Снимок экрана 2026-10-12 162826-1.png>)
+![Скриншот](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Снимок%20экрана%202026-10-12%20162826-1.png)
 
 
 
@@ -537,8 +535,8 @@ Endpoint /health проверял доступность приложения и
 
 **📸 Схема.** Нарисована в draw.io с иконками AWS Architecture Icons.
 
+![Архитектура веб-приложения в AWS](https://raw.githubusercontent.com/Cloud-Computing-Evelina/timecapsule/main/screenshots/Архитектура%20веб-приложения%20в%20AWS-1.png)
 
-![alt text](<Архитектура веб-приложения в AWS-1.png>)
 
 
 Создала архитектурную схему в draw.io, показывающую структуру приложения и взаимодействие его компонентов.
